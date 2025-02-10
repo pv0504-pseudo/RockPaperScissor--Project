@@ -10,7 +10,7 @@ num = int(input ("Enter a number:"))
 #Display the result
 result = check_even_odd(num)
 print(f"The number {num} is {result}.")
-#Loop two times
+# Loop two times
 for i in range(2):
     num = int(input("Enter a number:"))
     result = check_even_odd(num)
